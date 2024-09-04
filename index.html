@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komal - Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Your existing CSS here */
+        /* ... */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01;
+        }
+
+        main hr {
+            border: 1;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .firstSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        #element{
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            top: -32px;
+            left: -20px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9.5px;
+
+        }
+        
+        .thirdSection{
+            height: 80vh;
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+
+        .thirdSection div{
+            width: 30%;
+        }
+
+        .rightSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .thirdSection h1 {
+            font-size: 1.5rem;
+            margin: 40px;
+        }
+
+        .thirdSection img {
+            width: 1000%;
+        }
+        .thirdSection .leftSection{
+            width: 30px;
+            height: 10px;
+        }
+
+        .fourthSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .fourthSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .fourthSection .box {
+            border: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+
+        footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Komal's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">PROJECTS</a></li>
+                    <li><a href="/">SKILLS</a></li>
+                    <li><a href="/">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Komal Saleem</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="Komal Saleem.CV .pdf" download class="btn">Download CV</a>
+                    <button class="btn" id="visitGithubBtn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="komal (2).png" alt="">
+            </div>
+        </section>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <!-- Setup and start animation! -->
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Frontend Developer'],
+                typeSpeed: 50,
+            });
+
+            // JavaScript code for buttons
+            document.getElementById('downloadCvBtn').addEventListener('click', function() {
+                window.location.href = '/mnt/data/Komal Saleem.CV .pdf';
+            });
+
+            document.getElementById('visitGithubBtn').addEventListener('click', function() {
+                // Replace with your actual GitHub profile link
+                window.open('https://github.com/your-github-profile', '_blank');
+            });
+        </script>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1> My Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="sms.png" alt="">
+                    <div class="vertical-title">
+                        1st Semester
+                    </div>
+                    <div class="vertical-desc">
+                        School Management System on C++
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Supermarket-Grocery-POS-Billing-Software.jpg" alt="">
+                    <div class="vertical-title">
+                        2nd Semester
+                    </div>
+                    <div class="vertical-desc">
+                        Super Market Management System on Java (NetBeans)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="bank-management.png" alt="">
+                    <div class="vertical-title">
+                        3rd Semester
+                    </div>
+                    <div class="vertical-desc">
+                        Bank Management System using Linear Data Structure on C#
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="student-management.png" alt="">
+                    <div class="vertical-title">
+                        4th Semester
+                    </div>
+                    <div class="vertical-desc">
+                        Student Management System using CURD operations using SQL database connection for back-end and python with Tkinter for front-end
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Digital-Loan-Management-System.png" alt="">
+                    <div class="vertical-title">
+                        5th Semester
+                    </div>
+                    <div class="vertical-desc">
+                        Loan Management System using SQL database connection for back-end and python with Tkinter for front-end
+                    </div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <div class="leftSection">
+                <h1>ABOUT</h1>
+                <img src="komal (2).png" alt="">
+            </div>
+            <div class="rightSection">
+                <h1>Front-End Developer</h1>
+                <hr>
+                <p>I'm looking for a front-end developer internship where I can put my HTML, CSS, and JavaScript talents to use. I am eager to work with experienced experts to create user-friendly online experiences. I am dedicated to improving my UI/UX design skills and obtaining real industry knowledge while producing meaningful solutions.</p>
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Komal's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SKILLS</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+            <div class="footer-rights">
+                komalsportfolio.com | All rights reserved 2023
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
